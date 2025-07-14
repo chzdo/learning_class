@@ -1,0 +1,19 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+}
+table{
+    color: blue;
+    border-width: 100px;
+}
+ul{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}

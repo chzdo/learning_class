@@ -1,0 +1,127 @@
+h1 {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container {
+    background-color: red;
+}
+
+a {
+    float: right;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+/* 
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    gap: 100px;
+    justify-content: space-between;
+
+
+}
+
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    max-height: 400px;
+    height: 400px;
+    background-color: azure;
+
+}
+
+.box-container {
+    display: flex;
+    align-self: flex-end;
+}
+
+.box-container-right {
+    display: flex;
+    align-self: flex-start;
+}
+
+.box {
+    width: 300px;
+    text-align: justify;
+    font-size: 12px;
+    background-color: aquamarine;
+    color: black;
+}
+
+.box-2 {
+    width: 300px;
+    text-align: justify;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+}
+
+.boxes {
+    width: 200px;
+    background-color: blue;
+
+    height: 200px;
+}
+
+.position {
+    display: block;
+    position: relative;
+    background-color: aqua;
+    height: 300px;
+    width: 400px;
+}
+
+.position-span {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: black;
+}
+
+.customer {
+    position: fixed;
+    bottom: 0;
+
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+}

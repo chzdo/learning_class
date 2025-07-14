@@ -1,0 +1,31 @@
+h1{
+    color: white;
+
+}
+label{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    background-color: blueviolet;
+    padding-left: 200px;
+    border-radius: 30px;
+}
+.image{
+    border-radius: 20%;
+    height: 20%;
+    width: 20%;
+    float: right;
+}
+a{
+    color: white;
+}
+button{
+    float: right;
+    border-radius: 30px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.mybutton{
+    cursor: move;
+}

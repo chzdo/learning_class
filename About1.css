@@ -1,0 +1,36 @@
+
+h1{
+    background-color: blue;
+    color: aquamarine;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 90px;
+}
+.passion{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    background-color:red;
+    text-align: center;
+    font-size: 50px;
+    border-bottom-style: dashed;
+    
+}
+.container{
+    color: whitesmoke;
+    background-color: darkgreen;
+    text-align: center;
+    padding-block: 10px;
+    border-radius: 500%;
+
+}
+h2{
+    background-color: blue;
+    color: aquamarine;
+        border-top-style: dotted;
+        border-bottom-style: groove;
+        border-width: 20px;
+        border-color: brown;
+}
+
