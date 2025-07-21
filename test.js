@@ -106,27 +106,27 @@
 
 
 //Addition
-let x = 10;
-let y = 20;
-let sum = x + y + 1;
-console.log("Sum of x and y is: ", sum);
+// let x = 10;
+// let y = 20;
+// let sum = x + y + 1;
+// console.log("Sum of x and y is: ", sum);
 
 
-//Subtraction
-let difference = y - x;
-console.log("Difference of y and x is: ", difference);
+// //Subtraction
+// let difference = y - x;
+// console.log("Difference of y and x is: ", difference);
 
-//Multiplication
-let product = x * y;
-console.log("Product of x and y is: ", product);
+// //Multiplication
+// let product = x * y;
+// console.log("Product of x and y is: ", product);
 
-//Division
-let quotient = y / x;
-console.log("Quotient of y and x is: ", quotient);
+// //Division
+// let quotient = y / x;
+// console.log("Quotient of y and x is: ", quotient);
 
-//Modulus
-let remainder = y % x;
-console.log("Remainder of y divided by x is: ", remainder);
+// //Modulus
+// let remainder = y % x;
+// console.log("Remainder of y divided by x is: ", remainder);
 
 
 //Increment
@@ -136,40 +136,40 @@ console.log("Remainder of y divided by x is: ", remainder);
 //  DIFFERENCE BETWEEN ++x and x++ 
 // ++x increments x and returns the new value
 // x++ increments x but returns the old value
-x = ++x; // Pre-increment
-console.log("Value of x after pre-incrementing: ", x);
-x++
-console.log("Value of x after incrementing: ", x);
+// x = ++x; // Pre-increment
+// console.log("Value of x after pre-incrementing: ", x);
+// x++
+// console.log("Value of x after incrementing: ", x);
 
 
 //Decrement
 // Decrementing y by 1
 // This will change the value of y
-y = y - 1;
-console.log("Value of y after decrementing: ", y);
-y--;
-console.log("Value of y after decrementing again: ", y);
+// y = y - 1;
+// console.log("Value of y after decrementing: ", y);
+// y--;
+// console.log("Value of y after decrementing again: ", y);
 
 
 //Assignment Operators
-let a = 5;
-let b = 10;
-a += 2; // a = a + 2
+// let a = 5;
+// let b = 10;
+// a += 2; // a = a + 2
 
-b += 5; // b = b + 5
-console.log("Value of a after += 2: ", a); // 7
+// b += 5; // b = b + 5
+// console.log("Value of a after += 2: ", a); // 7
 
-a -= 3; // a = a - 3
-console.log("Value of a after -= 3: ", a); // 4
+// a -= 3; // a = a - 3
+// console.log("Value of a after -= 3: ", a); // 4
 
-b *= 2; // b = b * 2
-console.log("Value of b after *= 2: ", b); // 30
+// b *= 2; // b = b * 2
+// console.log("Value of b after *= 2: ", b); // 30
 
-a /= 2; // a = a / 2
-console.log("Value of a after /= 2: ", a); // 2
+// a /= 2; // a = a / 2
+// console.log("Value of a after /= 2: ", a); // 2
 
-a %= 2; // a = a % 2
-console.log("Value of a after %= 2: ", a); // 0
+// a %= 2; // a = a % 2
+// console.log("Value of a after %= 2: ", a); // 0
 
 
 /**
@@ -188,8 +188,218 @@ console.log("Value of a after %= 2: ", a); // 0
  */
 
 
+/**
+ * 
+ * control flows
+ * 
+ * 
+ */
+
+// let a = 2;
+// let b = 2;
+
+// let c = { a: 1 };
+// let d = { a: 1 };
+// let c1 = c
+
+// let e = [1];
+// let f = [1];
+
+// let a1 = "test";
+// let b1 = "test";
+
+// let a11 = "1";
+// let b11 = 1;
+
+// /***
+//  * ==
+//  * Double only compares the values and not the type
+//  */
+
+// console.log('a == b', a == b)
+
+// console.log('c == d', c == d)
+
+// console.log('e == f', e == f)
+
+// console.log('a1 == b1', a1 == b1)
+// console.log('c1 == c', c1 == c)
+// console.log('true == false', 1 == false)
+
+// console.log('a11 == b11', a11 == b11)
+
+
+// /**
+//  * ===
+//  * Triple Equal compares both value and type
+//  */
+
+// console.log('a11 === b11', a11 === b11)
+
+// /**
+//  * !=
+//  *  checking if two values are not equal
+//  */
+
+
+// console.log("c != d", c != d)
+// console.log("c1 != c", c1 != c)
+// console.log('a1 != b1', a11 != b11)
+
+
+// /**
+//  * !==
+//  *  checking if two values are not equal and the type
+//  */
+
+
+// console.log('a11 !== b11', a11 !== b11)
+
+// /***
+//  * 
+//  * <
+//  * 
+//  * 
+//  */
+
+// console.log("a<b", a < b)
+// console.log("a1<b1", a1 < b1)
+
+
+// /***
+//  * 
+//  * >
+//  * 
+//  * 
+//  */
+
+// console.log("a>b", a > b)
+// console.log("a1>b1", a1 > b1)
+
+// /***
+//  * 
+//  * >
+//  * 
+//  * 
+//  */
+
+// console.log("a>=b", a >= b)
+// console.log("a1>=b1", a1 >= b1)
+
+// /***
+//  * 
+//  * <
+//  * 
+//  * 
+//  */
+
+// console.log("a<=b", a <= b)
+// console.log("a1<=b1", a1 <= b1)
 
 
 
+// /**
+//  * 
+//  * &&
+//  */
+
+// let firstCompare = a >= b;
+// let secondCompare = c == d;
+
+// console.log(`${firstCompare} &&  ${secondCompare}`, firstCompare && secondCompare)
+
+// console.log("firstCompare || secondCompare", firstCompare || secondCompare)
+
+// console.log("!firstCompare", !firstCompare)
+
+// console.log("!secondCompare", !secondCompare);
+
+// /***
+//  * 
+//  *    value ? result1 : result2
+//  * 
+//  */
+// const studentName = "Stanley"
+// const score = 65;
+// const result = firstCompare ? " a is bigger or equal to b" : "a is not bigger or equal to b";
+
+// const result2 = score >= 70 ? "A" : (
+//     score >= 60 ? "B" : (score > 50 ? 'C' : "F")
+// );
 
 
+// console.log(result)
+
+// /**
+//  * 
+//  * Template Literal `${variableName}`
+//  */
+// console.log(`The Student  ${studentName} had `, result2)
+
+/**
+ * 
+ *   IF-ELSE
+ *   SWITCH
+ *
+ */
+
+let gender = "female"
+let age = 17
+//IF 
+
+// if (gender == "female" && age > 20) {
+//     //EXECUTE
+//     console.log("Can Graduate")
+// }
+
+//IF-ELSE
+// if (gender == "female" && age >= 20) {
+//     //EXECUTE
+//     console.log("Can Graduate")
+// } else {
+//     console.log("cannot graduate")
+// }
+
+//IF-ELSEIF
+
+
+
+let a = 3
+
+
+
+if (gender == "female" && age >= 20) {
+    let a = 2
+    //EXECUTE
+    console.log("Can Graduate", a)
+} else if (gender == "female" && age >= 16) {
+    let a = 1
+    console.log("wait for a year", a)
+} else if (gender == "female" && age >= 10) {
+    console.log("too young")
+} else {
+    console.log("cannot graduate")
+}
+
+
+/***
+ * 
+ *   Write a program that will console log the grade of student after addition the exam score and test score
+ * 
+ *    For Example  StudentName = "ANy Name"  ExamScore = 45 ; TestScore = 15        GRADE = 60  . Expected Result should be AnyName Scored B\\
+ * 
+ * 
+ *   Explain the result of the code
+ *     
+ * let a = "Stanley";
+ * let b = "stanley" 
+ * 
+ * console.log(a == b);
+ * console.log(a === b);
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
