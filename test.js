@@ -343,8 +343,8 @@
  *
  */
 
-let gender = "female"
-let age = 17
+// let gender = "female"
+// let age = 17
 //IF 
 
 // if (gender == "female" && age > 20) {
@@ -364,22 +364,22 @@ let age = 17
 
 
 
-let a = 3
+// let a = 3
 
 
 
-if (gender == "female" && age >= 20) {
-    let a = 2
-    //EXECUTE
-    console.log("Can Graduate", a)
-} else if (gender == "female" && age >= 16) {
-    let a = 1
-    console.log("wait for a year", a)
-} else if (gender == "female" && age >= 10) {
-    console.log("too young")
-} else {
-    console.log("cannot graduate")
-}
+// if (gender == "female" && age >= 20) {
+//     let a = 2
+//     //EXECUTE
+//     console.log("Can Graduate", a)
+// } else if (gender == "female" && age >= 16) {
+//     let a = 1
+//     console.log("wait for a year", a)
+// } else if (gender == "female" && age >= 10) {
+//     console.log("too young")
+// } else {
+//     console.log("cannot graduate")
+// }
 
 
 /***
@@ -400,6 +400,58 @@ if (gender == "female" && age >= 20) {
  * 
  * 
  * 
+ *  
  * 
+ */
+
+/**
+ * 
+ * LOOPS
+ * 
+ * while loop
+ * do while 
+ * for 
+ * 
+ * 
+ */
+
+console.log("starting point....")
+
+let count = 1;
+// while (count <= 100) {
+//     console.log("i am counting")
+//     console.log("count is ", count++)
+//     console.log("end counting")
+// }
+console.log("do while ....")
+count = 1;
+// let a
+// console.log(a)
+// do {
+//     console.log("i am counting")
+//     console.log("count is ", count++)
+//     console.log("end counting")
+// } while (!a);
+
+for (let count = 1; count <= 100; count++) {
+    console.log("i am counting")
+    console.log("count is ", count++)
+    console.log("end counting")
+
+}
+
+
+console.log("end point....")
+
+
+/***
+ * 
+ * 
+ * Write a program 
+ * 
+ * 1. Print even numbers from 2 to 20.  2, 4, 6 , 8 .....
+ * 2. print numbers in reverse from 10 to 1 ,  10,9,8,...
+ * 3. print the multiplication table of 5 - 5 * 1 = 5, 5 * 2 = 10  , ...
+ * 4. calculate the sum of numbers between 0 to 1000 - 0+1+2+3+4+5......+1000
  * 
  */
